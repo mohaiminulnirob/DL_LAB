@@ -3,7 +3,7 @@ import numpy as np
 data = np.genfromtxt(
     "data_banknote_authentication.txt",
     delimiter=",",
-    skip_header=1,
+    skip_header=0,
     filling_values=0
 )
 
